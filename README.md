@@ -9,9 +9,12 @@ This repository captures user stories in Gherkin syntax, detailing the behavior 
 **When** the user clicks the "+" button
 **Then** the count should increase by 1
       
-2. **Scenario: Multiple Clicks on the "+" Button** 
+2. **Scenario: Multiple Clicks on the "+" Button**
+   
 **Given** the initial count is 2
+
 **When** the user clicks the "+" button three times
+
 **Then** the count should increase to 5
 
 ## User Stories for the "-" Button
